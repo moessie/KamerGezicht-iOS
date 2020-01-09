@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.90000000000000002" contentMode="scaleToFill" id="Ze5-6b-2t3" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sunburst.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ATN-SO-Ru2">
+                                <rect key="frame" x="62" y="173" width="901" height="886"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KamerGezicht" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awD-5x-6Sl">
+                                <rect key="frame" x="20" y="103" width="984" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="dEv-FJ-Bee"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="43"/>
+                                <color key="textColor" red="1" green="0.99738513620000002" blue="0.94924676480000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="8" height="8"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B7-Jd-HnR">
+                                <rect key="frame" x="20" y="1082" width="984" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="6C5-4q-ZWW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Tip: Zet geluid aan om muziek te horen">
+                                    <color key="titleColor" red="1" green="0.99738513620000002" blue="0.94924676480000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <accessibility key="accessibilityConfiguration" identifier="image">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="awD-5x-6Sl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="226-6r-7MY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="4B7-Jd-HnR" secondAttribute="bottom" constant="239" id="2Cs-Oq-Rev"/>
+                            <constraint firstItem="ATN-SO-Ru2" firstAttribute="centerX" secondItem="4B7-Jd-HnR" secondAttribute="centerX" id="3AS-H8-ZyR"/>
+                            <constraint firstItem="4B7-Jd-HnR" firstAttribute="top" secondItem="ATN-SO-Ru2" secondAttribute="bottom" constant="23" id="5ez-Yr-TrT"/>
+                            <constraint firstItem="awD-5x-6Sl" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="83" id="fQC-AX-UaG"/>
+                            <constraint firstItem="awD-5x-6Sl" firstAttribute="trailing" secondItem="4B7-Jd-HnR" secondAttribute="trailing" id="hxc-fI-5cb"/>
+                            <constraint firstItem="ATN-SO-Ru2" firstAttribute="top" secondItem="awD-5x-6Sl" secondAttribute="bottom" constant="35" id="lWg-L8-gxn"/>
+                            <constraint firstItem="ATN-SO-Ru2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="42" id="quE-Ih-U3g"/>
+                            <constraint firstItem="awD-5x-6Sl" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="v8r-oh-4R2"/>
+                            <constraint firstItem="awD-5x-6Sl" firstAttribute="leading" secondItem="4B7-Jd-HnR" secondAttribute="leading" id="yZo-6n-lOd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-299" y="258"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sunburst.jpg" width="1024" height="1024"/>
+    </resources>
+</document>

@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45065B7E1E6457F800B8D168 /* pvda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B7D1E6457F800B8D168 /* pvda.mp3 */; };
+		45065B801E64588400B8D168 /* jezus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B7F1E64588400B8D168 /* jezus.mp3 */; };
+		45065B821E6458C600B8D168 /* burger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B811E6458C600B8D168 /* burger.mp3 */; };
+		45065B841E64593D00B8D168 /* d66.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B831E64593D00B8D168 /* d66.mp3 */; };
+		45065B861E6459A400B8D168 /* piraat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B851E6459A400B8D168 /* piraat.mp3 */; };
+		45065B881E645A3600B8D168 /* sp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B871E645A3600B8D168 /* sp.mp3 */; };
+		45065B8E1E645C0E00B8D168 /* sgp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B8D1E645C0E00B8D168 /* sgp.mp3 */; };
+		45065B901E645DA300B8D168 /* vnl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B8F1E645DA300B8D168 /* vnl.mp3 */; };
+		45065B921E645EBF00B8D168 /* groenlinks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B911E645EBE00B8D168 /* groenlinks.mp3 */; };
+		45065B941E645F1400B8D168 /* 50plus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B931E645F1400B8D168 /* 50plus.mp3 */; };
+		45065B961E645F5A00B8D168 /* forum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B951E645F5A00B8D168 /* forum.mp3 */; };
+		45065B981E645FA200B8D168 /* geenpijl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B971E645FA200B8D168 /* geenpijl.mp3 */; };
+		45065B9A1E645FFB00B8D168 /* artikel1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B991E645FFB00B8D168 /* artikel1.mp3 */; };
+		45065B9C1E64603C00B8D168 /* liber.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B9B1E64603C00B8D168 /* liber.mp3 */; };
+		45065B9E1E64608400B8D168 /* lokaal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B9D1E64608400B8D168 /* lokaal.mp3 */; };
+		45065BA01E6460C100B8D168 /* vrije.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065B9F1E6460C100B8D168 /* vrije.mp3 */; };
+		45065BA21E64610900B8D168 /* stemnl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BA11E64610900B8D168 /* stemnl.mp3 */; };
+		45065BA41E64615E00B8D168 /* niet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BA31E64615E00B8D168 /* niet.mp3 */; };
+		45065BA61E6461F100B8D168 /* vrijepartij.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BA51E6461F100B8D168 /* vrijepartij.mp3 */; };
+		45065BA81E64623A00B8D168 /* nieuwewegen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BA71E64623A00B8D168 /* nieuwewegen.mp3 */; };
+		45065BAA1E6462A400B8D168 /* ondernemers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BA91E6462A400B8D168 /* ondernemers.mp3 */; };
+		45065BAC1E64633D00B8D168 /* christen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45065BAB1E64633D00B8D168 /* christen.mp3 */; };
+		45065BB21E646A0E00B8D168 /* credits in Resources */ = {isa = PBXBuildFile; fileRef = 45065BB11E646A0E00B8D168 /* credits */; };
+		45065BB71E647F4A00B8D168 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BB61E647F4A00B8D168 /* AudioToolbox.framework */; };
+		45065BBA1E64818600B8D168 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BB91E64818600B8D168 /* EventKit.framework */; };
+		45065BBC1E64818F00B8D168 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BBB1E64818F00B8D168 /* EventKitUI.framework */; };
+		45065BBE1E64819800B8D168 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BBD1E64819800B8D168 /* AVFoundation.framework */; };
+		45065BC01E64819F00B8D168 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BBF1E64819F00B8D168 /* AdSupport.framework */; };
+		45065BC21E6481BA00B8D168 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BC11E6481BA00B8D168 /* CoreGraphics.framework */; };
+		45065BC41E6481C300B8D168 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BC31E6481C300B8D168 /* CoreTelephony.framework */; };
+		45065BC61E6481CC00B8D168 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BC51E6481CC00B8D168 /* CoreMedia.framework */; };
+		45065BC81E6481D700B8D168 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BC71E6481D700B8D168 /* MessageUI.framework */; };
+		45065BCA1E6481E600B8D168 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BC91E6481E600B8D168 /* StoreKit.framework */; };
+		45065BCC1E6481EE00B8D168 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BCB1E6481EE00B8D168 /* SystemConfiguration.framework */; };
+		45065BCF1E64835400B8D168 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45065BCE1E64835400B8D168 /* GoogleMobileAds.framework */; };
+		45065BD11E64850F00B8D168 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45065BD01E64850F00B8D168 /* GoogleService-Info.plist */; };
+		450D42A11E60CBEB005920F1 /* mark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450D42A01E60CBEB005920F1 /* mark.mp3 */; };
+		450D42A31E60CBF2005920F1 /* bensound-epic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 450D42A21E60CBF2005920F1 /* bensound-epic.mp3 */; };
+		450FF1B41E5EE7D200CBA7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF1B31E5EE7D200CBA7CE /* AppDelegate.swift */; };
+		450FF1B61E5EE7D200CBA7CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF1B51E5EE7D200CBA7CE /* ViewController.swift */; };
+		450FF1B91E5EE7D200CBA7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450FF1B71E5EE7D200CBA7CE /* Main.storyboard */; };
+		450FF1BB1E5EE7D200CBA7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450FF1BA1E5EE7D200CBA7CE /* Assets.xcassets */; };
+		450FF1BE1E5EE7D200CBA7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450FF1BC1E5EE7D200CBA7CE /* LaunchScreen.storyboard */; };
+		450FF1C91E5EE7D200CBA7CE /* KamerGezichtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF1C81E5EE7D200CBA7CE /* KamerGezichtTests.swift */; };
+		450FF1D41E5EE7D200CBA7CE /* KamerGezichtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FF1D31E5EE7D200CBA7CE /* KamerGezichtUITests.swift */; };
+		455231F61E658E6800208D1D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 455231F51E658E6800208D1D /* back.png */; };
+		45710A361E645671004670D3 /* spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45710A351E645671004670D3 /* spirit.mp3 */; };
+		45885C9F1E6085A1009BFBF8 /* denk in Resources */ = {isa = PBXBuildFile; fileRef = 45885C871E6085A0009BFBF8 /* denk */; };
+		45885CA01E6085A1009BFBF8 /* cda in Resources */ = {isa = PBXBuildFile; fileRef = 45885C881E6085A0009BFBF8 /* cda */; };
+		45885CA11E6085A1009BFBF8 /* d66 in Resources */ = {isa = PBXBuildFile; fileRef = 45885C891E6085A0009BFBF8 /* d66 */; };
+		45885CA21E6085A1009BFBF8 /* christenunie in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8A1E6085A0009BFBF8 /* christenunie */; };
+		45885CA31E6085A1009BFBF8 /* groenlinks in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8B1E6085A0009BFBF8 /* groenlinks */; };
+		45885CA41E6085A1009BFBF8 /* 50plus in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8C1E6085A0009BFBF8 /* 50plus */; };
+		45885CA51E6085A1009BFBF8 /* forumvoordemocratie in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8D1E6085A0009BFBF8 /* forumvoordemocratie */; };
+		45885CA61E6085A1009BFBF8 /* deburgerbeweging in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8E1E6085A0009BFBF8 /* deburgerbeweging */; };
+		45885CA71E6085A1009BFBF8 /* geenpijl in Resources */ = {isa = PBXBuildFile; fileRef = 45885C8F1E6085A0009BFBF8 /* geenpijl */; };
+		45885CA81E6085A1009BFBF8 /* artikel1 in Resources */ = {isa = PBXBuildFile; fileRef = 45885C901E6085A0009BFBF8 /* artikel1 */; };
+		45885CA91E6085A1009BFBF8 /* libertarischepartij in Resources */ = {isa = PBXBuildFile; fileRef = 45885C911E6085A0009BFBF8 /* libertarischepartij */; };
+		45885CAA1E6085A1009BFBF8 /* lokaalindekamer in Resources */ = {isa = PBXBuildFile; fileRef = 45885C921E6085A0009BFBF8 /* lokaalindekamer */; };
+		45885CAB1E6085A1009BFBF8 /* jezusleeft in Resources */ = {isa = PBXBuildFile; fileRef = 45885C931E6085A0009BFBF8 /* jezusleeft */; };
+		45885CAC1E6085A1009BFBF8 /* mensenspirit in Resources */ = {isa = PBXBuildFile; fileRef = 45885C941E6085A0009BFBF8 /* mensenspirit */; };
+		45885CAD1E6085A1009BFBF8 /* vrijedemocratischepartij in Resources */ = {isa = PBXBuildFile; fileRef = 45885C951E6085A0009BFBF8 /* vrijedemocratischepartij */; };
+		45885CAE1E6085A1009BFBF8 /* stemnl in Resources */ = {isa = PBXBuildFile; fileRef = 45885C961E6085A0009BFBF8 /* stemnl */; };
+		45885CAF1E6085A1009BFBF8 /* nietstemmers in Resources */ = {isa = PBXBuildFile; fileRef = 45885C971E6085A0009BFBF8 /* nietstemmers */; };
+		45885CB01E6085A1009BFBF8 /* piratenpartij in Resources */ = {isa = PBXBuildFile; fileRef = 45885C981E6085A0009BFBF8 /* piratenpartij */; };
+		45885CB11E6085A1009BFBF8 /* vrijzinnigepartij in Resources */ = {isa = PBXBuildFile; fileRef = 45885C991E6085A0009BFBF8 /* vrijzinnigepartij */; };
+		45885CB21E6085A1009BFBF8 /* nieuwewegen in Resources */ = {isa = PBXBuildFile; fileRef = 45885C9A1E6085A0009BFBF8 /* nieuwewegen */; };
+		45885CB31E6085A1009BFBF8 /* vnl in Resources */ = {isa = PBXBuildFile; fileRef = 45885C9B1E6085A0009BFBF8 /* vnl */; };
+		45885CB41E6085A1009BFBF8 /* ondernemerspartij in Resources */ = {isa = PBXBuildFile; fileRef = 45885C9C1E6085A0009BFBF8 /* ondernemerspartij */; };
+		45885CB51E6085A1009BFBF8 /* partijvoordedieren in Resources */ = {isa = PBXBuildFile; fileRef = 45885C9D1E6085A0009BFBF8 /* partijvoordedieren */; };
+		45885CB61E6085A1009BFBF8 /* sgp in Resources */ = {isa = PBXBuildFile; fileRef = 45885C9E1E6085A1009BFBF8 /* sgp */; };
+		45885CB81E6088BD009BFBF8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 45885CB71E6088BD009BFBF8 /* index.html */; };
+		45885CBC1E609338009BFBF8 /* buma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45885CBB1E609338009BFBF8 /* buma.mp3 */; };
+		45A07DE21E603B6800410562 /* pvda in Resources */ = {isa = PBXBuildFile; fileRef = 45A07DDD1E603B6800410562 /* pvda */; };
+		45A07DE31E603B6800410562 /* pvv in Resources */ = {isa = PBXBuildFile; fileRef = 45A07DDE1E603B6800410562 /* pvv */; };
+		45A07DE41E603B6800410562 /* sp in Resources */ = {isa = PBXBuildFile; fileRef = 45A07DDF1E603B6800410562 /* sp */; };
+		45A07DE51E603B6800410562 /* vvd in Resources */ = {isa = PBXBuildFile; fileRef = 45A07DE01E603B6800410562 /* vvd */; };
+		45FF40EE1E6599D900EB0EC0 /* denk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45FF40ED1E6599D900EB0EC0 /* denk.mp3 */; };
+		45FF40F21E65B36100EB0EC0 /* Sunburst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FF40F11E65B36100EB0EC0 /* Sunburst.jpg */; };
+		45FF8DE91E5F629900559870 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 45FF8DE61E5F629900559870 /* css */; };
+		45FF8DEB1E5F629900559870 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 45FF8DE81E5F629900559870 /* js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450FF1C51E5EE7D200CBA7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450FF1A81E5EE7D200CBA7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450FF1AF1E5EE7D200CBA7CE;
+			remoteInfo = KamerGezicht;
+		};
+		450FF1D01E5EE7D200CBA7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450FF1A81E5EE7D200CBA7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450FF1AF1E5EE7D200CBA7CE;
+			remoteInfo = KamerGezicht;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45065B7D1E6457F800B8D168 /* pvda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pvda.mp3; path = ../../../Downloads/pvda.mp3; sourceTree = "<group>"; };
+		45065B7F1E64588400B8D168 /* jezus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jezus.mp3; path = ../../../Downloads/jezus.mp3; sourceTree = "<group>"; };
+		45065B811E6458C600B8D168 /* burger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = burger.mp3; path = ../../../Downloads/burger.mp3; sourceTree = "<group>"; };
+		45065B831E64593D00B8D168 /* d66.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d66.mp3; path = ../../../Downloads/d66.mp3; sourceTree = "<group>"; };
+		45065B851E6459A400B8D168 /* piraat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = piraat.mp3; path = ../../../Downloads/piraat.mp3; sourceTree = "<group>"; };
+		45065B871E645A3600B8D168 /* sp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sp.mp3; path = ../../../Downloads/sp.mp3; sourceTree = "<group>"; };
+		45065B8D1E645C0E00B8D168 /* sgp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sgp.mp3; path = ../../../Downloads/sgp.mp3; sourceTree = "<group>"; };
+		45065B8F1E645DA300B8D168 /* vnl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vnl.mp3; path = ../../../Downloads/vnl.mp3; sourceTree = "<group>"; };
+		45065B911E645EBE00B8D168 /* groenlinks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = groenlinks.mp3; path = ../../../Downloads/groenlinks.mp3; sourceTree = "<group>"; };
+		45065B931E645F1400B8D168 /* 50plus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 50plus.mp3; path = ../../../Downloads/50plus.mp3; sourceTree = "<group>"; };
+		45065B951E645F5A00B8D168 /* forum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = forum.mp3; path = ../../../Downloads/forum.mp3; sourceTree = "<group>"; };
+		45065B971E645FA200B8D168 /* geenpijl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = geenpijl.mp3; path = ../../../Downloads/geenpijl.mp3; sourceTree = "<group>"; };
+		45065B991E645FFB00B8D168 /* artikel1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = artikel1.mp3; path = ../../../Downloads/artikel1.mp3; sourceTree = "<group>"; };
+		45065B9B1E64603C00B8D168 /* liber.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = liber.mp3; path = ../../../Downloads/liber.mp3; sourceTree = "<group>"; };
+		45065B9D1E64608400B8D168 /* lokaal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lokaal.mp3; path = ../../../Downloads/lokaal.mp3; sourceTree = "<group>"; };
+		45065B9F1E6460C100B8D168 /* vrije.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vrije.mp3; path = ../../../Downloads/vrije.mp3; sourceTree = "<group>"; };
+		45065BA11E64610900B8D168 /* stemnl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stemnl.mp3; path = ../../../Downloads/stemnl.mp3; sourceTree = "<group>"; };
+		45065BA31E64615E00B8D168 /* niet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = niet.mp3; path = ../../../Downloads/niet.mp3; sourceTree = "<group>"; };
+		45065BA51E6461F100B8D168 /* vrijepartij.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = vrijepartij.mp3; path = ../../../Downloads/vrijepartij.mp3; sourceTree = "<group>"; };
+		45065BA71E64623A00B8D168 /* nieuwewegen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nieuwewegen.mp3; path = ../../../Downloads/nieuwewegen.mp3; sourceTree = "<group>"; };
+		45065BA91E6462A400B8D168 /* ondernemers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ondernemers.mp3; path = ../../../Downloads/ondernemers.mp3; sourceTree = "<group>"; };
+		45065BAB1E64633D00B8D168 /* christen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = christen.mp3; path = ../../../Downloads/christen.mp3; sourceTree = "<group>"; };
+		45065BB11E646A0E00B8D168 /* credits */ = {isa = PBXFileReference; lastKnownFileType = folder; name = credits; path = "../../../Downloads/wiee-2/credits"; sourceTree = "<group>"; };
+		45065BB41E647F3400B8D168 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.17.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		45065BB61E647F4A00B8D168 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		45065BB91E64818600B8D168 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		45065BBB1E64818F00B8D168 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		45065BBD1E64819800B8D168 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45065BBF1E64819F00B8D168 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		45065BC11E6481BA00B8D168 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45065BC31E6481C300B8D168 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		45065BC51E6481CC00B8D168 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		45065BC71E6481D700B8D168 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		45065BC91E6481E600B8D168 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		45065BCB1E6481EE00B8D168 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45065BCE1E64835400B8D168 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = KamerGezicht/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		45065BD01E64850F00B8D168 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "KamerGezicht/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		450D42A01E60CBEB005920F1 /* mark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mark.mp3; path = ../../../.Trash/mark.mp3; sourceTree = "<group>"; };
+		450D42A21E60CBF2005920F1 /* bensound-epic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-epic.mp3"; path = "../../../.Trash/bensound-epic.mp3"; sourceTree = "<group>"; };
+		450FF1B01E5EE7D200CBA7CE /* KamerGezicht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamerGezicht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450FF1B31E5EE7D200CBA7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450FF1B51E5EE7D200CBA7CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450FF1B81E5EE7D200CBA7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450FF1BA1E5EE7D200CBA7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450FF1BD1E5EE7D200CBA7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450FF1BF1E5EE7D200CBA7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450FF1C41E5EE7D200CBA7CE /* KamerGezichtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamerGezichtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450FF1C81E5EE7D200CBA7CE /* KamerGezichtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamerGezichtTests.swift; sourceTree = "<group>"; };
+		450FF1CA1E5EE7D200CBA7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450FF1CF1E5EE7D200CBA7CE /* KamerGezichtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamerGezichtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450FF1D31E5EE7D200CBA7CE /* KamerGezichtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamerGezichtUITests.swift; sourceTree = "<group>"; };
+		450FF1D51E5EE7D200CBA7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455231F51E658E6800208D1D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../Downloads/back.png; sourceTree = "<group>"; };
+		45710A351E645671004670D3 /* spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spirit.mp3; path = ../../../Downloads/spirit.mp3; sourceTree = "<group>"; };
+		45885C871E6085A0009BFBF8 /* denk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = denk; path = ../../../Downloads/wiee/denk; sourceTree = "<group>"; };
+		45885C881E6085A0009BFBF8 /* cda */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cda; path = ../../../Downloads/wiee/cda; sourceTree = "<group>"; };
+		45885C891E6085A0009BFBF8 /* d66 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = d66; path = ../../../Downloads/wiee/d66; sourceTree = "<group>"; };
+		45885C8A1E6085A0009BFBF8 /* christenunie */ = {isa = PBXFileReference; lastKnownFileType = folder; name = christenunie; path = ../../../Downloads/wiee/christenunie; sourceTree = "<group>"; };
+		45885C8B1E6085A0009BFBF8 /* groenlinks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = groenlinks; path = ../../../Downloads/wiee/groenlinks; sourceTree = "<group>"; };
+		45885C8C1E6085A0009BFBF8 /* 50plus */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 50plus; path = ../../../Downloads/wiee/50plus; sourceTree = "<group>"; };
+		45885C8D1E6085A0009BFBF8 /* forumvoordemocratie */ = {isa = PBXFileReference; lastKnownFileType = folder; name = forumvoordemocratie; path = ../../../Downloads/wiee/forumvoordemocratie; sourceTree = "<group>"; };
+		45885C8E1E6085A0009BFBF8 /* deburgerbeweging */ = {isa = PBXFileReference; lastKnownFileType = folder; name = deburgerbeweging; path = ../../../Downloads/wiee/deburgerbeweging; sourceTree = "<group>"; };
+		45885C8F1E6085A0009BFBF8 /* geenpijl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = geenpijl; path = ../../../Downloads/wiee/geenpijl; sourceTree = "<group>"; };
+		45885C901E6085A0009BFBF8 /* artikel1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = artikel1; path = ../../../Downloads/wiee/artikel1; sourceTree = "<group>"; };
+		45885C911E6085A0009BFBF8 /* libertarischepartij */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libertarischepartij; path = ../../../Downloads/wiee/libertarischepartij; sourceTree = "<group>"; };
+		45885C921E6085A0009BFBF8 /* lokaalindekamer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lokaalindekamer; path = ../../../Downloads/wiee/lokaalindekamer; sourceTree = "<group>"; };
+		45885C931E6085A0009BFBF8 /* jezusleeft */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jezusleeft; path = ../../../Downloads/wiee/jezusleeft; sourceTree = "<group>"; };
+		45885C941E6085A0009BFBF8 /* mensenspirit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mensenspirit; path = ../../../Downloads/wiee/mensenspirit; sourceTree = "<group>"; };
+		45885C951E6085A0009BFBF8 /* vrijedemocratischepartij */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vrijedemocratischepartij; path = ../../../Downloads/wiee/vrijedemocratischepartij; sourceTree = "<group>"; };
+		45885C961E6085A0009BFBF8 /* stemnl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = stemnl; path = ../../../Downloads/wiee/stemnl; sourceTree = "<group>"; };
+		45885C971E6085A0009BFBF8 /* nietstemmers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = nietstemmers; path = ../../../Downloads/wiee/nietstemmers; sourceTree = "<group>"; };
+		45885C981E6085A0009BFBF8 /* piratenpartij */ = {isa = PBXFileReference; lastKnownFileType = folder; name = piratenpartij; path = ../../../Downloads/wiee/piratenpartij; sourceTree = "<group>"; };
+		45885C991E6085A0009BFBF8 /* vrijzinnigepartij */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vrijzinnigepartij; path = ../../../Downloads/wiee/vrijzinnigepartij; sourceTree = "<group>"; };
+		45885C9A1E6085A0009BFBF8 /* nieuwewegen */ = {isa = PBXFileReference; lastKnownFileType = folder; name = nieuwewegen; path = ../../../Downloads/wiee/nieuwewegen; sourceTree = "<group>"; };
+		45885C9B1E6085A0009BFBF8 /* vnl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vnl; path = ../../../Downloads/wiee/vnl; sourceTree = "<group>"; };
+		45885C9C1E6085A0009BFBF8 /* ondernemerspartij */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ondernemerspartij; path = ../../../Downloads/wiee/ondernemerspartij; sourceTree = "<group>"; };
+		45885C9D1E6085A0009BFBF8 /* partijvoordedieren */ = {isa = PBXFileReference; lastKnownFileType = folder; name = partijvoordedieren; path = ../../../Downloads/wiee/partijvoordedieren; sourceTree = "<group>"; };
+		45885C9E1E6085A1009BFBF8 /* sgp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sgp; path = ../../../Downloads/wiee/sgp; sourceTree = "<group>"; };
+		45885CB71E6088BD009BFBF8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "../../../Downloads/wiee-2/index.html"; sourceTree = "<group>"; };
+		45885CBB1E609338009BFBF8 /* buma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buma.mp3; path = ../../../Downloads/buma.mp3; sourceTree = "<group>"; };
+		45A07DDD1E603B6800410562 /* pvda */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pvda; path = ../../../Downloads/wiee/pvda; sourceTree = "<group>"; };
+		45A07DDE1E603B6800410562 /* pvv */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pvv; path = ../../../Downloads/wiee/pvv; sourceTree = "<group>"; };
+		45A07DDF1E603B6800410562 /* sp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sp; path = ../../../Downloads/wiee/sp; sourceTree = "<group>"; };
+		45A07DE01E603B6800410562 /* vvd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vvd; path = ../../../Downloads/wiee/vvd; sourceTree = "<group>"; };
+		45FF40ED1E6599D900EB0EC0 /* denk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = denk.mp3; path = ../../../Downloads/denk.mp3; sourceTree = "<group>"; };
+		45FF40F11E65B36100EB0EC0 /* Sunburst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sunburst.jpg; path = ../../Sunburst.jpg; sourceTree = "<group>"; };
+		45FF8DE61E5F629900559870 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../../Downloads/wiblr-jr/css"; sourceTree = "<group>"; };
+		45FF8DE81E5F629900559870 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../../Downloads/wiblr-jr/js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450FF1AD1E5EE7D200CBA7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45065BCF1E64835400B8D168 /* GoogleMobileAds.framework in Frameworks */,
+				45065BCC1E6481EE00B8D168 /* SystemConfiguration.framework in Frameworks */,
+				45065BCA1E6481E600B8D168 /* StoreKit.framework in Frameworks */,
+				45065BC81E6481D700B8D168 /* MessageUI.framework in Frameworks */,
+				45065BC61E6481CC00B8D168 /* CoreMedia.framework in Frameworks */,
+				45065BC41E6481C300B8D168 /* CoreTelephony.framework in Frameworks */,
+				45065BC21E6481BA00B8D168 /* CoreGraphics.framework in Frameworks */,
+				45065BB71E647F4A00B8D168 /* AudioToolbox.framework in Frameworks */,
+				45065BC01E64819F00B8D168 /* AdSupport.framework in Frameworks */,
+				45065BBE1E64819800B8D168 /* AVFoundation.framework in Frameworks */,
+				45065BBC1E64818F00B8D168 /* EventKitUI.framework in Frameworks */,
+				45065BBA1E64818600B8D168 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1C11E5EE7D200CBA7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1CC1E5EE7D200CBA7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45065BB31E647F3400B8D168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45065BCE1E64835400B8D168 /* GoogleMobileAds.framework */,
+				45065BCB1E6481EE00B8D168 /* SystemConfiguration.framework */,
+				45065BC91E6481E600B8D168 /* StoreKit.framework */,
+				45065BC71E6481D700B8D168 /* MessageUI.framework */,
+				45065BC51E6481CC00B8D168 /* CoreMedia.framework */,
+				45065BC31E6481C300B8D168 /* CoreTelephony.framework */,
+				45065BC11E6481BA00B8D168 /* CoreGraphics.framework */,
+				45065BBF1E64819F00B8D168 /* AdSupport.framework */,
+				45065BBD1E64819800B8D168 /* AVFoundation.framework */,
+				45065BBB1E64818F00B8D168 /* EventKitUI.framework */,
+				45065BB91E64818600B8D168 /* EventKit.framework */,
+				45065BB61E647F4A00B8D168 /* AudioToolbox.framework */,
+				45065BB41E647F3400B8D168 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		450FF1A71E5EE7D200CBA7CE = {
+			isa = PBXGroup;
+			children = (
+				45065BD01E64850F00B8D168 /* GoogleService-Info.plist */,
+				450FF1B21E5EE7D200CBA7CE /* KamerGezicht */,
+				450FF1C71E5EE7D200CBA7CE /* KamerGezichtTests */,
+				450FF1D21E5EE7D200CBA7CE /* KamerGezichtUITests */,
+				450FF1B11E5EE7D200CBA7CE /* Products */,
+				45065BB31E647F3400B8D168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		450FF1B11E5EE7D200CBA7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450FF1B01E5EE7D200CBA7CE /* KamerGezicht.app */,
+				450FF1C41E5EE7D200CBA7CE /* KamerGezichtTests.xctest */,
+				450FF1CF1E5EE7D200CBA7CE /* KamerGezichtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450FF1B21E5EE7D200CBA7CE /* KamerGezicht */ = {
+			isa = PBXGroup;
+			children = (
+				450FF1B31E5EE7D200CBA7CE /* AppDelegate.swift */,
+				450FF1B51E5EE7D200CBA7CE /* ViewController.swift */,
+				450FF1B71E5EE7D200CBA7CE /* Main.storyboard */,
+				450FF1BA1E5EE7D200CBA7CE /* Assets.xcassets */,
+				450FF1BC1E5EE7D200CBA7CE /* LaunchScreen.storyboard */,
+				45885CB71E6088BD009BFBF8 /* index.html */,
+				450FF1BF1E5EE7D200CBA7CE /* Info.plist */,
+				45FF40F11E65B36100EB0EC0 /* Sunburst.jpg */,
+				455231F51E658E6800208D1D /* back.png */,
+				45065B871E645A3600B8D168 /* sp.mp3 */,
+				45065B8D1E645C0E00B8D168 /* sgp.mp3 */,
+				45065B8F1E645DA300B8D168 /* vnl.mp3 */,
+				45065B851E6459A400B8D168 /* piraat.mp3 */,
+				45065B911E645EBE00B8D168 /* groenlinks.mp3 */,
+				45065B7F1E64588400B8D168 /* jezus.mp3 */,
+				45065B971E645FA200B8D168 /* geenpijl.mp3 */,
+				450D42A01E60CBEB005920F1 /* mark.mp3 */,
+				45065B831E64593D00B8D168 /* d66.mp3 */,
+				45065BA31E64615E00B8D168 /* niet.mp3 */,
+				45065B7D1E6457F800B8D168 /* pvda.mp3 */,
+				45065B931E645F1400B8D168 /* 50plus.mp3 */,
+				45065BA11E64610900B8D168 /* stemnl.mp3 */,
+				450D42A21E60CBF2005920F1 /* bensound-epic.mp3 */,
+				45FF40ED1E6599D900EB0EC0 /* denk.mp3 */,
+				45065B811E6458C600B8D168 /* burger.mp3 */,
+				45065BB11E646A0E00B8D168 /* credits */,
+				45065BA51E6461F100B8D168 /* vrijepartij.mp3 */,
+				45065B951E645F5A00B8D168 /* forum.mp3 */,
+				45065B991E645FFB00B8D168 /* artikel1.mp3 */,
+				45065BA91E6462A400B8D168 /* ondernemers.mp3 */,
+				45065BA71E64623A00B8D168 /* nieuwewegen.mp3 */,
+				45065B9B1E64603C00B8D168 /* liber.mp3 */,
+				45065B9F1E6460C100B8D168 /* vrije.mp3 */,
+				45065BAB1E64633D00B8D168 /* christen.mp3 */,
+				45710A351E645671004670D3 /* spirit.mp3 */,
+				45065B9D1E64608400B8D168 /* lokaal.mp3 */,
+				45885CBB1E609338009BFBF8 /* buma.mp3 */,
+				45885C871E6085A0009BFBF8 /* denk */,
+				45885C881E6085A0009BFBF8 /* cda */,
+				45885C891E6085A0009BFBF8 /* d66 */,
+				45885C8A1E6085A0009BFBF8 /* christenunie */,
+				45885C8B1E6085A0009BFBF8 /* groenlinks */,
+				45885C8C1E6085A0009BFBF8 /* 50plus */,
+				45885C8D1E6085A0009BFBF8 /* forumvoordemocratie */,
+				45885C8E1E6085A0009BFBF8 /* deburgerbeweging */,
+				45885C8F1E6085A0009BFBF8 /* geenpijl */,
+				45885C901E6085A0009BFBF8 /* artikel1 */,
+				45885C911E6085A0009BFBF8 /* libertarischepartij */,
+				45885C921E6085A0009BFBF8 /* lokaalindekamer */,
+				45885C931E6085A0009BFBF8 /* jezusleeft */,
+				45885C941E6085A0009BFBF8 /* mensenspirit */,
+				45885C951E6085A0009BFBF8 /* vrijedemocratischepartij */,
+				45885C961E6085A0009BFBF8 /* stemnl */,
+				45885C971E6085A0009BFBF8 /* nietstemmers */,
+				45885C981E6085A0009BFBF8 /* piratenpartij */,
+				45885C991E6085A0009BFBF8 /* vrijzinnigepartij */,
+				45885C9A1E6085A0009BFBF8 /* nieuwewegen */,
+				45885C9B1E6085A0009BFBF8 /* vnl */,
+				45885C9C1E6085A0009BFBF8 /* ondernemerspartij */,
+				45885C9D1E6085A0009BFBF8 /* partijvoordedieren */,
+				45885C9E1E6085A1009BFBF8 /* sgp */,
+				45A07DDD1E603B6800410562 /* pvda */,
+				45A07DDE1E603B6800410562 /* pvv */,
+				45A07DDF1E603B6800410562 /* sp */,
+				45A07DE01E603B6800410562 /* vvd */,
+				45FF8DE61E5F629900559870 /* css */,
+				45FF8DE81E5F629900559870 /* js */,
+			);
+			path = KamerGezicht;
+			sourceTree = "<group>";
+		};
+		450FF1C71E5EE7D200CBA7CE /* KamerGezichtTests */ = {
+			isa = PBXGroup;
+			children = (
+				450FF1C81E5EE7D200CBA7CE /* KamerGezichtTests.swift */,
+				450FF1CA1E5EE7D200CBA7CE /* Info.plist */,
+			);
+			path = KamerGezichtTests;
+			sourceTree = "<group>";
+		};
+		450FF1D21E5EE7D200CBA7CE /* KamerGezichtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				450FF1D31E5EE7D200CBA7CE /* KamerGezichtUITests.swift */,
+				450FF1D51E5EE7D200CBA7CE /* Info.plist */,
+			);
+			path = KamerGezichtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450FF1AF1E5EE7D200CBA7CE /* KamerGezicht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450FF1D81E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezicht" */;
+			buildPhases = (
+				450FF1AC1E5EE7D200CBA7CE /* Sources */,
+				450FF1AD1E5EE7D200CBA7CE /* Frameworks */,
+				450FF1AE1E5EE7D200CBA7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KamerGezicht;
+			productName = KamerGezicht;
+			productReference = 450FF1B01E5EE7D200CBA7CE /* KamerGezicht.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450FF1C31E5EE7D200CBA7CE /* KamerGezichtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450FF1DB1E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezichtTests" */;
+			buildPhases = (
+				450FF1C01E5EE7D200CBA7CE /* Sources */,
+				450FF1C11E5EE7D200CBA7CE /* Frameworks */,
+				450FF1C21E5EE7D200CBA7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450FF1C61E5EE7D200CBA7CE /* PBXTargetDependency */,
+			);
+			name = KamerGezichtTests;
+			productName = KamerGezichtTests;
+			productReference = 450FF1C41E5EE7D200CBA7CE /* KamerGezichtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		450FF1CE1E5EE7D200CBA7CE /* KamerGezichtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450FF1DE1E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezichtUITests" */;
+			buildPhases = (
+				450FF1CB1E5EE7D200CBA7CE /* Sources */,
+				450FF1CC1E5EE7D200CBA7CE /* Frameworks */,
+				450FF1CD1E5EE7D200CBA7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450FF1D11E5EE7D200CBA7CE /* PBXTargetDependency */,
+			);
+			name = KamerGezichtUITests;
+			productName = KamerGezichtUITests;
+			productReference = 450FF1CF1E5EE7D200CBA7CE /* KamerGezichtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450FF1A81E5EE7D200CBA7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "S&G";
+				TargetAttributes = {
+					450FF1AF1E5EE7D200CBA7CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HWN7H4LL88;
+						ProvisioningStyle = Automatic;
+					};
+					450FF1C31E5EE7D200CBA7CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 450FF1AF1E5EE7D200CBA7CE;
+					};
+					450FF1CE1E5EE7D200CBA7CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 450FF1AF1E5EE7D200CBA7CE;
+					};
+				};
+			};
+			buildConfigurationList = 450FF1AB1E5EE7D200CBA7CE /* Build configuration list for PBXProject "KamerGezicht" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450FF1A71E5EE7D200CBA7CE;
+			productRefGroup = 450FF1B11E5EE7D200CBA7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450FF1AF1E5EE7D200CBA7CE /* KamerGezicht */,
+				450FF1C31E5EE7D200CBA7CE /* KamerGezichtTests */,
+				450FF1CE1E5EE7D200CBA7CE /* KamerGezichtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450FF1AE1E5EE7D200CBA7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45885CB11E6085A1009BFBF8 /* vrijzinnigepartij in Resources */,
+				45065B881E645A3600B8D168 /* sp.mp3 in Resources */,
+				45885CAB1E6085A1009BFBF8 /* jezusleeft in Resources */,
+				45885CB51E6085A1009BFBF8 /* partijvoordedieren in Resources */,
+				455231F61E658E6800208D1D /* back.png in Resources */,
+				45065B9E1E64608400B8D168 /* lokaal.mp3 in Resources */,
+				45885CA61E6085A1009BFBF8 /* deburgerbeweging in Resources */,
+				45065BA81E64623A00B8D168 /* nieuwewegen.mp3 in Resources */,
+				45885CA81E6085A1009BFBF8 /* artikel1 in Resources */,
+				45FF8DEB1E5F629900559870 /* js in Resources */,
+				45885CB41E6085A1009BFBF8 /* ondernemerspartij in Resources */,
+				45065B9A1E645FFB00B8D168 /* artikel1.mp3 in Resources */,
+				45FF8DE91E5F629900559870 /* css in Resources */,
+				45065B9C1E64603C00B8D168 /* liber.mp3 in Resources */,
+				45065B981E645FA200B8D168 /* geenpijl.mp3 in Resources */,
+				45065B901E645DA300B8D168 /* vnl.mp3 in Resources */,
+				45885CA71E6085A1009BFBF8 /* geenpijl in Resources */,
+				45885CB61E6085A1009BFBF8 /* sgp in Resources */,
+				45FF40EE1E6599D900EB0EC0 /* denk.mp3 in Resources */,
+				45065BB21E646A0E00B8D168 /* credits in Resources */,
+				450FF1BE1E5EE7D200CBA7CE /* LaunchScreen.storyboard in Resources */,
+				45065B841E64593D00B8D168 /* d66.mp3 in Resources */,
+				45A07DE51E603B6800410562 /* vvd in Resources */,
+				450D42A11E60CBEB005920F1 /* mark.mp3 in Resources */,
+				45065B921E645EBF00B8D168 /* groenlinks.mp3 in Resources */,
+				45A07DE41E603B6800410562 /* sp in Resources */,
+				45065BD11E64850F00B8D168 /* GoogleService-Info.plist in Resources */,
+				450FF1BB1E5EE7D200CBA7CE /* Assets.xcassets in Resources */,
+				45065B801E64588400B8D168 /* jezus.mp3 in Resources */,
+				45A07DE21E603B6800410562 /* pvda in Resources */,
+				45885CB21E6085A1009BFBF8 /* nieuwewegen in Resources */,
+				45885CAE1E6085A1009BFBF8 /* stemnl in Resources */,
+				45065B961E645F5A00B8D168 /* forum.mp3 in Resources */,
+				45710A361E645671004670D3 /* spirit.mp3 in Resources */,
+				45885CB01E6085A1009BFBF8 /* piratenpartij in Resources */,
+				45065B941E645F1400B8D168 /* 50plus.mp3 in Resources */,
+				45065B7E1E6457F800B8D168 /* pvda.mp3 in Resources */,
+				45065BAA1E6462A400B8D168 /* ondernemers.mp3 in Resources */,
+				45885CA11E6085A1009BFBF8 /* d66 in Resources */,
+				45885CA51E6085A1009BFBF8 /* forumvoordemocratie in Resources */,
+				450D42A31E60CBF2005920F1 /* bensound-epic.mp3 in Resources */,
+				45885CB81E6088BD009BFBF8 /* index.html in Resources */,
+				45065BA01E6460C100B8D168 /* vrije.mp3 in Resources */,
+				45885CA91E6085A1009BFBF8 /* libertarischepartij in Resources */,
+				450FF1B91E5EE7D200CBA7CE /* Main.storyboard in Resources */,
+				45885CBC1E609338009BFBF8 /* buma.mp3 in Resources */,
+				45065B861E6459A400B8D168 /* piraat.mp3 in Resources */,
+				45885CAD1E6085A1009BFBF8 /* vrijedemocratischepartij in Resources */,
+				45FF40F21E65B36100EB0EC0 /* Sunburst.jpg in Resources */,
+				45065BA41E64615E00B8D168 /* niet.mp3 in Resources */,
+				45065BA61E6461F100B8D168 /* vrijepartij.mp3 in Resources */,
+				45A07DE31E603B6800410562 /* pvv in Resources */,
+				45885CB31E6085A1009BFBF8 /* vnl in Resources */,
+				45885CA21E6085A1009BFBF8 /* christenunie in Resources */,
+				45885CAA1E6085A1009BFBF8 /* lokaalindekamer in Resources */,
+				45065BA21E64610900B8D168 /* stemnl.mp3 in Resources */,
+				45065B8E1E645C0E00B8D168 /* sgp.mp3 in Resources */,
+				45065BAC1E64633D00B8D168 /* christen.mp3 in Resources */,
+				45885CAC1E6085A1009BFBF8 /* mensenspirit in Resources */,
+				45885CA31E6085A1009BFBF8 /* groenlinks in Resources */,
+				45065B821E6458C600B8D168 /* burger.mp3 in Resources */,
+				45885C9F1E6085A1009BFBF8 /* denk in Resources */,
+				45885CA01E6085A1009BFBF8 /* cda in Resources */,
+				45885CA41E6085A1009BFBF8 /* 50plus in Resources */,
+				45885CAF1E6085A1009BFBF8 /* nietstemmers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1C21E5EE7D200CBA7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1CD1E5EE7D200CBA7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450FF1AC1E5EE7D200CBA7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450FF1B61E5EE7D200CBA7CE /* ViewController.swift in Sources */,
+				450FF1B41E5EE7D200CBA7CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1C01E5EE7D200CBA7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450FF1C91E5EE7D200CBA7CE /* KamerGezichtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450FF1CB1E5EE7D200CBA7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450FF1D41E5EE7D200CBA7CE /* KamerGezichtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450FF1C61E5EE7D200CBA7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450FF1AF1E5EE7D200CBA7CE /* KamerGezicht */;
+			targetProxy = 450FF1C51E5EE7D200CBA7CE /* PBXContainerItemProxy */;
+		};
+		450FF1D11E5EE7D200CBA7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450FF1AF1E5EE7D200CBA7CE /* KamerGezicht */;
+			targetProxy = 450FF1D01E5EE7D200CBA7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		450FF1B71E5EE7D200CBA7CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450FF1B81E5EE7D200CBA7CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450FF1BC1E5EE7D200CBA7CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450FF1BD1E5EE7D200CBA7CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450FF1D61E5EE7D200CBA7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450FF1D71E5EE7D200CBA7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450FF1D91E5EE7D200CBA7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWN7H4LL88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KamerGezicht",
+				);
+				INFOPLIST_FILE = KamerGezicht/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezicht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		450FF1DA1E5EE7D200CBA7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWN7H4LL88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KamerGezicht",
+				);
+				INFOPLIST_FILE = KamerGezicht/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezicht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		450FF1DC1E5EE7D200CBA7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KamerGezichtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezichtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KamerGezicht.app/KamerGezicht";
+			};
+			name = Debug;
+		};
+		450FF1DD1E5EE7D200CBA7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KamerGezichtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezichtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KamerGezicht.app/KamerGezicht";
+			};
+			name = Release;
+		};
+		450FF1DF1E5EE7D200CBA7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KamerGezichtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezichtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KamerGezicht;
+			};
+			name = Debug;
+		};
+		450FF1E01E5EE7D200CBA7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KamerGezichtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vansteinengroentjes.KamerGezichtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KamerGezicht;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450FF1AB1E5EE7D200CBA7CE /* Build configuration list for PBXProject "KamerGezicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450FF1D61E5EE7D200CBA7CE /* Debug */,
+				450FF1D71E5EE7D200CBA7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450FF1D81E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450FF1D91E5EE7D200CBA7CE /* Debug */,
+				450FF1DA1E5EE7D200CBA7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450FF1DB1E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezichtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450FF1DC1E5EE7D200CBA7CE /* Debug */,
+				450FF1DD1E5EE7D200CBA7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450FF1DE1E5EE7D200CBA7CE /* Build configuration list for PBXNativeTarget "KamerGezichtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450FF1DF1E5EE7D200CBA7CE /* Debug */,
+				450FF1E01E5EE7D200CBA7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450FF1A81E5EE7D200CBA7CE /* Project object */;
+}
